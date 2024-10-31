@@ -1,0 +1,25 @@
+./requirements.txt
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Django specific
+*.log
+*.sqlite3
+db.sqlite3
+
+# Local settings
+/local_settings.py
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
