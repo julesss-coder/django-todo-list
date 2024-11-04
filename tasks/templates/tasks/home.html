@@ -1,1 +1,14 @@
 <h1>Tasks</h1>
+<ul>
+    {% for task in tasks %}
+        <li>
+            {% if task.completed %}
+                <input type="checkbox" checked>
+            {% else %}
+                <input type="checkbox">
+            {%endif%}
+            {{task}}
+            (Created: {{task.created_at}})
+        </li>
+    {% endfor %}
+</ul>
